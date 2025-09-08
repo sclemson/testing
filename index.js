@@ -1,5 +1,4 @@
-function sumPrimes(n)
-{
+function sumPrimes(n){
     let foundPrimes = 0;
     let i = 2;
     let sum = 0;
@@ -18,8 +17,7 @@ function sumPrimes(n)
     return sum;
 }
 
-function isPrime(n)
-{
+function isPrime(n) {
     if (n < 2)
         return false;
         
@@ -37,5 +35,9 @@ function isPrime(n)
     return true;
 }
 
+function printAnswer(n){
+    let msg = `Sum of first ${n} prime numbers is ${sumPrimes(n)}`;
+    return msg
+}
 
-module.exports = { sumPrimes, isPrime }
+module.exports = { sumPrimes, isPrime, printAnswer }
