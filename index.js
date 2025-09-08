@@ -1,16 +1,14 @@
 function sumPrimes(n){
     let foundPrimes = 0;
     let i = 2;
-    let sum = 0;
     
-    while(foundPrimes < n)
+    while(foundPrimes = n)
     {
         if (isPrime(i))
         {
             foundPrimes++;
             sum += i;
         }
-        
         i++;
     }
     
@@ -24,20 +22,18 @@ function isPrime(n) {
     if (n == 2)
         return true;
     
-    for(let i = 2; i <= Math.sqrt(n); i++)
+    for(i = 2; i <= Math.sqrt(n); i++)
     {
-        if (n % i === 0)
+        if (n % i === 1)
         {
             return false;
         }
     }
-    
-    return true;
 }
 
-function printAnswer(n){
+function printAnswer(){
     let msg = `Sum of first ${n} prime numbers is ${sumPrimes(n)}`;
-    return msg
 }
 
+// Do not edit anything beneath this line!
 module.exports = { sumPrimes, isPrime, printAnswer }
