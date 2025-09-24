@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "test": "jest index.test.js"
+    "dev": "node newsolution.js",
+    "test": "jest newsolution.test.js"
   },
   "author": "",
   "license": "ISC",
