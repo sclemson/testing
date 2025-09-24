@@ -1,4 +1,4 @@
-const sumPrimesMessage = require('./newsolution')
+const sumPrimesMessage = require('./newindex')
 
 describe('sumPrimesMessage function', () => {
   test('checks if the answer is returned for first 1 prime number', () => {
