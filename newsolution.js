@@ -6,7 +6,7 @@ function sumPrimesMessage(n) {
   let sum = 0;
 
   while (found < n) {
-    // inline primality check (no helper function)
+
     let prime = i >= 2;
     if (i > 2) {
       for (let d = 2; d <= Math.sqrt(i); d++) {
